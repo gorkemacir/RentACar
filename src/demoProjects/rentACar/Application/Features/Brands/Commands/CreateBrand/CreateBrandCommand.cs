@@ -14,7 +14,7 @@ namespace Application.Features.Brands.Commands.CreateBrand
 {
     public partial class CreateBrandCommand:IRequest<CreatedBrandDto>
     {
-        public string Name { get; set; }
+        public string Name { get; set;}
 
         public class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, CreatedBrandDto>
         {
