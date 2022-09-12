@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\ProgramingLanguages\Dtos\" />
+    <Folder Include="Features\ProgramingLanguages\Models\" />
+    <Folder Include="Features\ProgramingLanguages\Commands\" />
+    <Folder Include="Features\ProgramingLanguages\Profiles\" />
+    <Folder Include="Features\ProgramingLanguages\Rules\" />
+    <Folder Include="Features\ProgramingLanguages\Queries\" />
+    <Folder Include="Services\Repositories\" />
+  </ItemGroup>
+
+</Project>
