@@ -19,9 +19,8 @@ namespace Persistence
         {
             services.AddDbContext<BaseDbContext>(options =>
                                                      options.UseSqlServer(
-                                                         configuration.GetConnectionString("RentACarCampConnectionString")));
-            services.AddScoped<IBrandRepository, BrandRepository>();
-            services.AddScoped<IModelRepository, ModelRepository>();
+                                                         configuration.GetConnectionString("KodlamaIoDevsConnectionString")));
+            services.AddScoped<IProgramingLanguageRepository, ProgramingLanguageRepository>();
 
             return services;
         }
